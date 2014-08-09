@@ -1,4 +1,3 @@
-jpangborn.github.io
-===================
+# Progressive Tutelage
 
-Blog for Joshua Pangborn
+The blog of Joshua Pangborn, exploring how I am enhancing the administration of higher education.
