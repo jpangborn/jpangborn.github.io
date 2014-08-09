@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Joshua Pangborn
   avatar: joshua.jpeg
-  bio: "Enhancing the Administration of Higher Education."
+  bio: "Working to Enhance the Administration of Higher Education."
   email: joshua.pangborn@gmail.com
   disqus-shortname:
   twitter: joshua_pangborn
@@ -41,9 +41,9 @@ owner:
     ad-slot:
   bing-verify:
   github: jpangborn
-  stackoverflow: #http://stackoverflow.com/users/123456/username
+  stackoverflow: http://stackoverflow.com/users/841096/joshua-pangborn
   linkedin: #username
-  instagram: #username
+  instagram: jpangborn
   lastfm: #username
   tumblr: #username
   pinterest: #username
