@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Create RORSTAT Records for All Students"
-modified:
+modified: 2014-08-08
 categories: "Banner Financial Aid"
 excerpt: Simplify much of Banner Financial Aid processing by creating RORSTAT records for all potential students.
 tags: [Banner, "Financial Aid", RORSTAT]
 image:
-  feature:
+  feature: berea-college-walk.jpg
 date: 2014-08-08T23:57:37-04:00
 ---
 
@@ -46,11 +46,11 @@ This Population Selection selects all students with an Admissions Application fo
 Below are the rules for *SUB_REQ_ADMIT
 
 {% highlight sql %}
-SELECT RRRAREQ_PIDM
-FROM RRRAREQ
-WHERE RRRAREQ_AIDY_CODE = &aidy_code
-  AND RRRAREQ_TREQ_CODE = 'ADMIT'
-  AND RRRAREQ_SAT_IND = 'Y'
+SELECT rrrareq_pidm
+FROM rrrareq
+WHERE rrrareq_aidy_code = &aidy_code
+  AND rrrareq_treq_code = 'ADMIT'
+  AND rrrareq_sat_ind = 'Y'
 {% endhighlight %}
 
 After running the Population Selection, we use a Batch Posting rule to post the ADMIT requirement as Satisfied for each student. Here is the rule that should be entered on RORPOST.
@@ -72,23 +72,23 @@ This process will create a RORSTAT record for all accepted new students. Next we
 
 Creating a RORSTAT record for continuing students by selecting all of the students who had a RORSTAT record in the previous year except those in some of our control groups. We exclude students in the following groups:
 
-NOAPST – No Admissions Application or Student Record
-NOACTV – Not an Active Student
-NOADMT – Not Offered Admission
-GRADUA – Graduated
-CANCEL – Cancelled their Admissions Application
-WTHDRW – Withdrawn
-REVIEW – Not in a Valid Group
+- NOAPST – No Admissions Application or Student Record
+- NOACTV – Not an Active Student
+- NOADMT – Not Offered Admission
+- GRADUA – Graduated
+- CANCEL – Cancelled their Admissions Application
+- WTHDRW – Withdrawn
+- REVIEW – Not in a Valid Group
 
 This selects all of the students who might be back the next year. We run this process one time in mid December for the Aid Year that we will begin processing in January. Because the current aid year is not complete, we cannot be 100% accurate at this time. In particular, we do not attempt to exclude students who are expected to graduate at the end of current aid year. Our grouping in the next aid year and our Satisfactory Academic Progress process ensure that graduates are not awarded aid for the next year.
 
 The poplulation selection, CREATE_NEW_YEAR_RORSTAT, for selecting these students is:
 
 {% highlight sql %}
-SELECT RORSTAT_PIDM
-FROM RORSTAT
-WHERE RORSTAT_AIDY_CODE = &pre_aidy_code
-  AND RORSTAT_TGRP_CODE NOT IN ('NOAPST','NOACTV','NOADMT','GRADUA','CANCEL','WTHDRW','REVIEW')
+SELECT rorstat_pidm
+FROM rorstat
+WHERE rorstat_aidy_code = &pre_aidy_code
+  AND rorstat_tgrp_code NOT IN ('NOAPST','NOACTV','NOADMT','GRADUA','CANCEL','WTHDRW','REVIEW')
 {% endhighlight %}
 
 We then run this selection of students through the groupding process, RORGRPS, with the following parameters.
