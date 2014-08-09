@@ -41,7 +41,62 @@ Next, we need to create our Missing Requirements document. This the template tha
 
 Finally, we need to setup the macro that used the reformat the requirements:
 
-{% gist jpangborn/8000713 %}
+<!-- {% gist jpangborn/8000713 %} -->
+
+{% highlight vbnet %}
+Sub ReformatTrackingMessages()
+
+Selection.Find.ClearFormatting
+With Selection.Find
+.Text = “_*_”
+.Replacement.Text = “”
+.Wrap = wdFindContinue
+.Format = False
+.MatchCase = False
+.MatchWholeWord = False
+.MatchAllWordForms = False
+.MatchSoundsLike = False
+.MatchWildcards = True
+End With
+
+Do While Selection.Find.Execute
+Selection.Font.Bold = True
+Loop
+
+Selection.HomeKey Unit:=wdStory, Extend:=wdMove
+
+Selection.Find.ClearFormatting
+With Selection.Find
+.Text = “_”
+.Replacement.Text = “”
+.Wrap = wdFindContinue
+.Format = False
+.MatchCase = False
+.MatchWholeWord = False
+.MatchAllWordForms = False
+.MatchSoundsLike = False
+.MatchWildcards = False
+End With
+
+Selection.Find.Execute Replace:=wdReplaceAll
+
+Selection.Find.ClearFormatting
+With Selection.Find
+.Text = “^l”
+.Replacement.Text = “^p”
+.Wrap = wdFindContinue
+.Format = False
+.MatchCase = False
+.MatchWholeWord = False
+.MatchAllWordForms = False
+.MatchSoundsLike = False
+.MatchWildcards = False
+End With
+
+Selection.Find.Execute Replace:=wdReplaceAll
+
+End Sub
+{% endhighlight %}
 
 The first With Selection statement finds all the long descriptions surrounded by underscores, and change the font to bold. Then we find all of underscores and remove them. Finally, we use a side effect of the Banner Variable extraction process. Banner puts a line break character in between each requirement when it extracts the variable. We replace all of the line breaks with new paragraph characters. This has the effect of triggering a new bullet for each requirement. Take this macro and save it as a subroutine in the mail merge document that you created and you will be able to run it.The above Word Document should already contain this macro.
 
