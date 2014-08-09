@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tracking Letters in Word"
+title: "Formatted Missing Information Letters in Word"
 modified:
 categories: "Banner Financial Aid"
 excerpt: Learn how to use Banner and Microsoft Word to generate well formatted Missing Information Letters.
