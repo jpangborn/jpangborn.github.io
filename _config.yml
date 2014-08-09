@@ -2,8 +2,8 @@
 
 title:            Progressive Tutelage
 locale:           en_US
-#url:              http://jpangborn.github.io
-url:              http://localhost:4000
+url:              http://jpangborn.github.io
+#url:              http://localhost:4000
 
 # Jekyll configuration
 
