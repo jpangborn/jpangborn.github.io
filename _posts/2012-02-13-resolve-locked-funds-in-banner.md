@@ -7,7 +7,7 @@ excerpt: Did you just run disbursment, only to have a bunch of funds lock. Learn
 tags: [Banner, "Financial Aid", Funds]
 image:
   feature: messiah-college-snow.jpg
-date: 2014-08-09T17:56:18-04:00
+date: 2012-02-13T17:56:18-04:00
 ---
 
 You’ve just run disbursements for the first time this semester, and a bunch of students have funds that didn’t memo or disburse. Quite likely, the reason the funds did not disburse is because the fund locked during the disbursement process. The most common reason for a fund to lock is because it ran out of money. Here are the steps that I use to resolve fund locks.

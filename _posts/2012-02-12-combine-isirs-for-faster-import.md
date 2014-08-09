@@ -7,7 +7,7 @@ excerpt: Tired of importing 5 or 6 ISIR files everyday? Learn how to combine ISI
 tags: [banner, "financial aid", isirs]
 image:
   feature: berea-college-quad.jpg
-date: 2014-08-09T18:01:32-04:00
+date: 2012-02-12T18:01:32-04:00
 ---
 
 Loading ISIRs into Banner can be an intensive process, if done manually. There are often many different file classes each day. Combining the files can make it easier to load the files. Here is the process that I development to load ISIRs into Banner.

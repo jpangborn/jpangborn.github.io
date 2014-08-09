@@ -7,7 +7,7 @@ excerpt: Simplify much of Banner Financial Aid processing by creating RORSTAT re
 tags: [Banner, "Financial Aid", RORSTAT]
 image:
   feature: night-sky.jpg
-date: 2014-08-08T23:57:37-04:00
+date: 2012-02-10T23:57:37-04:00
 ---
 
 After setting up Banner Financial Aid, I quickly came to realize that writing population selections and rules was needlessly difficult. The problem was that we often want to work with populations of students that had no yet started the financial aid process for the year. These students had no record in the Financial Aid module, so writing population selections or rules often ignored these students altogether. After running into this issue a few times, I started looking for a solution. The simplest solution, to me, was to ensure that any student that I would want to work with in a year already had a record in the financial module, RORSTAT record.

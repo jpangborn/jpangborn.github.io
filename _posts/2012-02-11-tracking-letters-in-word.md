@@ -7,7 +7,7 @@ excerpt: Learn how to use Banner and Microsoft Word to generate well formatted M
 tags: [Banner, "Financial Aid", Letters, Requirements, Word]
 image:
   feature: autumn-leaf.jpg
-date: 2014-08-09T11:25:13-04:00
+date: 2012-02-11T11:25:13-04:00
 ---
 
 While working with Banner, I have often come across schools that would like to create nice looking Missing Requirements Letters in Microsoft Word. This is difficult proposition when extracting data from Banner. All that you get in the data file is text. I’ll go over the process that I have adapted to resolve this. It involves some forethought in designing your variables and a Word Macro.
