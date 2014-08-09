@@ -3,7 +3,7 @@ layout: post
 title: "Create RORSTAT Records for All Students"
 modified:
 categories: "Banner Financial Aid"
-excerpt:
+excerpt: Simplify much of Banner Financial Aid processing by creating RORSTAT records for all potential students.
 tags: [Banner, "Financial Aid", RORSTAT]
 image:
   feature:
