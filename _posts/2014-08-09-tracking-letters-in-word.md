@@ -16,7 +16,18 @@ While working with Banner, I have often come across schools that would like to c
 
 First we need to setup the variables that will extract the requirements information from Banner for each student. By choosing some unique characters to place in the variable at key points, we can offset portions of the variable for later use. Below is an example variable:
 
-{% gist jpangborn/8000689 %}
+<!-- {% gist jpangborn/8000689 %} -->
+
+{% highlight sql %}
+SELECT '_' || nvl(rtvtreq_long_desc, 'None') || ':_ ' || nvl(rtvtreq_instructions, '')
+FROM rtvtreq, rrrareq
+WHERE rrrareq_aidy_code = &aidy_code
+  AND rrrareq_sat_ind = 'N'
+  AND rrrareq_treq_code = rtvtreq_code
+  AND rtvtreq_info_access_ind = 'Y'
+ORDER BY rtvtreq_long_desc
+GROUP BY rtvtreq_long_desc
+{% endhighlight %}
 
 At a high level, this variable retreives the Long Description and Instructions for all requirements that are not satisfied and should be visible to the student. It also sorts the results by Long Description and groups them so that you only get one result if the student has the requirement twice.
 
