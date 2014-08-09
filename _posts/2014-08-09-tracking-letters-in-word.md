@@ -6,7 +6,7 @@ categories: "Banner Financial Aid"
 excerpt: Learn how to use Banner and Microsoft Word to generate well formatted Missing Information Letters.
 tags: [Banner, "Financial Aid", Letters, Requirements, Word]
 image:
-  feature: berea-college-walk.jpg
+  feature: autumn-leaf.jpg
 date: 2014-08-09T11:25:13-04:00
 ---
 
