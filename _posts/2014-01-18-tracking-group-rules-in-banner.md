@@ -225,7 +225,7 @@ FROM rzvtgrp
 WHERE rzvtgrp_aidy_code = :AIDY
   AND rzvtgrp_pidm = :PIDM
   AND rzvtgrp_module IS NULL;
-{% end highlight %}
+{% endhighlight %}
 
 ### XNADMT – Students who are not Admitted
 
