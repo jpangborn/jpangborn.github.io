@@ -55,8 +55,8 @@ Once you have created some snapshot panes, they can be organized into layouts. T
 The Current Student Packaging layout compares data from the previous aid year with the current aid year. This is used when reviewing current student packages for the upcoming year. Users can see last year’s award and budget information along side the new year’s information.
 
 <figure>
-  <a href="/images/02-ws-pane-layout-cur-stu-packaging.jpg">
-    <img src="/images/02-ws-pane-layout-cur-stu-packaging.jpg" alt="Web Snapshot Layout: Current Student Packaging">
+  <a href="/images/02-ws-layout-cur-stu-packaging.jpg">
+    <img src="/images/02-ws-layout-cur-stu-packaging.jpg" alt="Web Snapshot Layout: Current Student Packaging">
   </a>
   <figcaption>The Current Student Packaging Layout shows data from the previous aid year and the new aid year. It is used when reviewing current student packages.</figcaption>
 </figure>
@@ -66,8 +66,8 @@ The Current Student Packaging layout compares data from the previous aid year wi
 This layout was created for our frontline staff to have an overview of a student’s information at their fingertips when answering the phones. It show all vital Financial Aid data, including an overview, requirements, budget, award, holds, and comments along with AR and Student data such as student account details by term, student holds, course registration.
 
 <figure>
-  <a href="/images/03-ws-pane-layout-fa-ar-overview.jpg">
-    <img src="/images/03-ws-pane-layout-fa-ar-overview.jpg" alt="Web Snapshot Layout: Financial Aid / Accounts Receivable Overview">
+  <a href="/images/03-ws-layout-fa-ar-overview.jpg">
+    <img src="/images/03-ws-layout-fa-ar-overview.jpg" alt="Web Snapshot Layout: Financial Aid / Accounts Receivable Overview">
   </a>
   <figcaption>The Financial Aid / Accounts Receivable layout is used by frontline staff to give them a full overview of a student that they are working with.</figcaption>
 </figure>
