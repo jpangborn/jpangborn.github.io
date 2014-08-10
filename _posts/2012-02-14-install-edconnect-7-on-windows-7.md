@@ -7,7 +7,7 @@ excerpt: EDConnect 7 doesnt' officially support Windows 7. Learn how to work aro
 tags: [edconnect, "financial aid", windows]
 image:
   feature: berea-college-draper.jpg
-date: 2014-02-14T00:00:00-05:00
+date: 2012-02-14T00:00:00-05:00
 ---
 
 EDConnect is not currently supported on Windows 7 by the Department of Education. In spite of the lack of support, EDConnect will work on Windows 7 if installed in a particular manner. Read on for installation instructions and details of what does not work.
