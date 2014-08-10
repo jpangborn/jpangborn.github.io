@@ -4,7 +4,9 @@ title: "Software"
 date:
 modified:
 excerpt:
-tags: []
+tags: [software]
+image:
+  feature: autumn-leaf.jpg
 ---
 
 I write web-based software. I enjoy learning the ins and outs of a new field and helping to bring that field into software. Contact me at joshua.pangborn@gmail.com if you would like to discuss your software needs.
