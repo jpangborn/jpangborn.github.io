@@ -34,7 +34,7 @@ where rprawrd_aidy_code = :AIDY
 By default, Web Snapshot will format your query as a table with each column being one of the fields selected and each record having a separate row. The above SQL statement may produce the following table:
 
 | Fund  | Status  | Offered  |
-|-------|---------|----------|
+|:------|:--------|:---------|
 | PELL  | ACPT    | 5000     |
 | PROV  | ACPT    | 10000    |
 | FDSL  | OFFR    | 5500     |
@@ -64,7 +64,7 @@ where rprawrd_aidy_code = :AIDY
 Notice that we have joined to two other tables to get the descriptions that we needed. You will need to be familiar with data in Banner to write good Snaphsot panes. We also used a couple Oracle functions to format the Offered Amount. With these changes, our table is now more readable.
 
 | Fund                         | Status    | Offered  |
-|------------------------------|-----------|---------:|
+|:-----------------------------|:----------|---------:|
 | Federal Pell Grant           | Accepted  | $5,000   |
 | Provost Scholarship          | Accepted  | $10,000  |
 | Federal Sub. Stafford Loan   | Offered   | $5,500   |
@@ -103,7 +103,7 @@ This generates the following table.
 This is a good start, but isn’t the best format for displaying the total. Here is where columns come in. The default value for Columns is 0. This creates a table with the format we have seen, where each field selected is a column. We can change this value to 1 to generate a table with all the fields selected in a column with field names to the left. Different Columns settings can be used, but I haven’t found a good use for anything other than 0 or 1. One possibility is using columns to generate a table that displays two rows per record. Below is the table generated with Columns set to 1.
 
 |                |         |
-|----------------|--------:|
+|:---------------|--------:|
 | Total Offered: | $27,000 |
 
 I use a Columns setting of 1 often when I am selecting specific data for a student and I know that only one row will be returned. This is most useful in displaying summary data.
@@ -113,7 +113,7 @@ In order to enter this into Web Snapshot, you need to create another pane and en
 ### Financial Aid Award
 
 | Fund                         | Status    | Offered |
-|------------------------------|-----------|--------:|
+|:-----------------------------|:----------|--------:|
 | Federal Pell Grant           | Accepted  | $5,000  |
 | Provost Scholarship          | Accepted  | $10,000 |
 | Federal Sub. Stafford Loan   | Offered   | $5,500  |
@@ -160,7 +160,7 @@ The key here is the `rpratrm_period like '%10'` line. This allows us to limit re
 Below is the table generated for the above SQL.
 
 | Fund                         | Status    | Fall    | Spring  | Total   |
-|------------------------------|-----------|--------:|--------:|--------:|
+|:-----------------------------|:----------|--------:|--------:|--------:|
 | Federal Pell Grant           | Accepted  | $2,500  | $2,500  | $5,000  |
 | Provost Scholarship          | Accepted  | $5,000  | $5,000  | $10,000 |
 | Federal Sub. Stafford Loan   | Offered   | $2,750  | $2,750  | $5,500  |
