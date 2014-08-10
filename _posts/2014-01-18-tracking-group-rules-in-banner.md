@@ -233,7 +233,7 @@ Here is a rule that doesn’t use the RZVTGRP view. It could have been written u
 
 <!-- {% gist jpangborn/8494961 %} -->
 
-<% highlight sql %>
+{% highlight sql %}
 -- XNADMT - Not Admitted
 
 SELECT DISTINCT(saradap_pidm)
