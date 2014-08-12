@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Welcome to Progressive Tutelage"
+date: 2014-08-12T02:17:51-04:00
 categories: General
 excerpt: Learn more about my new blog.
 tags: [general, blog]
