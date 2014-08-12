@@ -40,7 +40,7 @@ You will need to replace `jpangborn` with your username. The `Blog` at the end i
 
 ## Install Octopress, Jekyll, and Dependencies
 
-You could start putting HTML, CSS, and Javascript here, but it isn't easy to maintain a blog with static HTML and CSS. Since Github Pages support Jekyll, we will get that setup. We will also install Octopress, which makes working with Jekyll on the command line easier. We need to take care of a few prerequisites first. Jekyll is written in Ruby, so we need to install the first. There are many ways to install ruby. The following instructions are for Mac OS X.
+You could start putting HTML, CSS, and Javascript here, but it isn't easy to maintain a blog with static HTML and CSS. Since Github Pages support Jekyll, we will get that setup. We will also install Octopress, which makes working with Jekyll on the command line easier. We need to take care of a few prerequisites first. Jekyll is written in Ruby, so we need to install the first. There are many ways to install ruby. The following instructions are for Mac OS X and can all be run from the `Blog` directory.
 
 ### Install Homebrew
 
@@ -97,7 +97,39 @@ Since we have Bundler installed, we just need to declare the Jekyll and Octopres
 {% highlight ruby %}
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem "jekyll-sitemap"
+gem 'github-pages'
 gem 'octopress', '~> 3.0.0.rc.12'
 {% endhighlight %}
+
+Save the file in your Blog directory with the name `Gemfile`. Then execute the following command to install Octopress, Jekyll, and all their dependencies.
+
+{% highlight bash %}
+bundle install
+{% endhighlight %}
+
+Now, you have all the software needed to build a Jekyll blog, but we don't have anything to build yet. At this point, stage and commit the files in git with the following commands.
+
+{% highlight bash %}
+git add .
+git commit -m "Add Gemfile"
+{% endhighlight %}
+
+Now we need to get some blog content setup.
+
+## Setup Your Blog
+
+Before you start writing any posts, you should get the site structure and design built. You could do this by starting form scratch or by installing a theme.
+
+### Starting from Scratch
+
+You can setup a new Jekyll site by running the following command from the `Blog` directory.
+
+{% highlight bash %}
+octopress new . --force
+{% endhighlight %}
+
+From here, you will need to create all your templates and content. See the [Jekyll Documentation](http://jekyllrb.com/docs/home/) for the full details on Jekyll.
+
+### Starting from a Theme
+
+It is much easier to start from a theme. You can find a bunch of great themes at the following Jekyll themes sites: [JekyllThemes.org](http://jekyllthemes.org) or [JekyllThemes.net](http://www.jekyllthemes.net).
