@@ -32,6 +32,72 @@ Now you have a Github Pages repository.
 
 You will most likely want to work on your blog on you computer, not on Github.com, so you will want to clone the repository. You could use Github for Windows or Github for Mac to clone the repository, but I prefer the command line. Most tutorials give you the basic Git clone command, but you end up with a folder named `username.github.io`. I don't find that very friendly to work with. So I used the following git command to clone the repository
 
-    git clone git://github.com/jpangborn/jpangborn.github.io Blog
+{% highlight bash %}
+git clone git://github.com/jpangborn/jpangborn.github.io Blog
+{% endhighlight %}
 
-You will need to replace `jpangborn` with your username. The `Blog` at the end is the directory where the repository will be cloned. You can use any name you like here.
+You will need to replace `jpangborn` with your username. The `Blog` at the end is the directory where the repository will be cloned. You can use any directory name you like here. At this point, you now have a starting point to build your site.
+
+## Install Octopress, Jekyll, and Dependencies
+
+You could start putting HTML, CSS, and Javascript here, but it isn't easy to maintain a blog with static HTML and CSS. Since Github Pages support Jekyll, we will get that setup. We will also install Octopress, which makes working with Jekyll on the command line easier. We need to take care of a few prerequisites first. Jekyll is written in Ruby, so we need to install the first. There are many ways to install ruby. The following instructions are for Mac OS X.
+
+### Install Homebrew
+
+I have found Homebrew to be the easiest method to install and manage Ruby on the Mac. Execute the following command in terminal to install Homebrew.
+
+{% highlight bash %}
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+{% endhighlight %}
+
+Once you have Homebrew installed, you should update the formula by executing the following command.
+
+{% highlight bash %}
+brew update
+{% endhighlight %}
+
+### Install Ruby-Build and RBENV
+
+I use RBENV and Ruby-Build to install and manage Ruby. RBENV lets you switch between different Ruby versions and set specific versions for different projects. Ruby-Build is an RBENV plug-in that allows you to easily download, build and install specific versions of Ruby. Install RBENV and Ruby-Build with the following command:
+
+{% highlight bash %}
+brew install rbenv ruby-build
+{% endhighlight %}
+
+Once they have completed, there is one final step to setting up RBENV. Execute the following command.
+
+{% highlight bash %}
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+{% endhighlight %}
+
+Now you are ready to install Ruby.
+
+### Install Ruby
+
+Install Ruby with the following command.
+
+{% highlight bash %}
+rbenv install 2.1.0
+{% endhighlight %}
+
+This may take a while as ruby is downloaded and compiled.
+
+### Install Bundler
+
+Once Ruby is installed, you will need to install Bundler, the Ruby package manager. It can be installed with the following command.
+
+{% highlight bash %}
+gem install bundler
+{% endhighlight %}
+
+### Install Jekyll and Octopress
+
+Since we have Bundler installed, we just need to declare the Jekyll and Octopress as site dependencies. Create a file with the following contents:
+
+{% highlight ruby %}
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem "jekyll-sitemap"
+gem 'octopress', '~> 3.0.0.rc.12'
+{% endhighlight %}
