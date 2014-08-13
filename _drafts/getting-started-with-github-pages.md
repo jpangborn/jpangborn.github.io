@@ -133,3 +133,15 @@ From here, you will need to create all your templates and content. See the [Jeky
 ### Starting from a Theme
 
 It is much easier to start from a theme. You can find a bunch of great themes at the following Jekyll themes sites: [JekyllThemes.org](http://jekyllthemes.org) or [JekyllThemes.net](http://www.jekyllthemes.net).
+
+I choose the [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) theme by Michael Rose.
+
+## Installing the Theme
+
+Many of the themes start with instructions to clone the theme's repository. I don't like this option since your site repository already exists. I prefer just downloading the files and extracting them to the `Blog` directory.
+
+Once this is done, you will have all the files needed to finalize your blog. But there is some settings that need to be customized to your site.
+
+## Customizing the Theme
+
+The main configuration for a Jekyll site is contained in the _config.yml file.
