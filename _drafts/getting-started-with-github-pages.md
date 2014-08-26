@@ -24,7 +24,7 @@ A Github Pages site is a special git repository on Github that contains your blo
 
 ## Setup Your Github Repository
 
-The first thing you need it to get your site's repository set up on Github.com. A Github Pages site is just a special git repository hosted on Github.com. For a user site, you must create the repository with the following name, replacing username with your Github username: `username.github.io`. For example, I created a repository named `jpangborn.github.io`.
+The first thing you need is to get your site's repository set up on Github.com. A Github Pages site is a special git repository hosted on Github.com. For a user site, you must create the repository with the following name, replacing username with your Github username: `username.github.io`. For example, I created a repository named `jpangborn.github.io`.
 
 Now you have a Github Pages repository.
 
