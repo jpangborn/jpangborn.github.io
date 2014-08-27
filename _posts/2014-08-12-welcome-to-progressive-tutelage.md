@@ -5,6 +5,7 @@ date: 2014-08-12T02:17:51-04:00
 categories: General
 excerpt: Learn more about my new blog.
 tags: [general, blog]
+comments: true
 image:
   feature: berea-college-sunset.jpg
 ---
