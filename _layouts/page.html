@@ -38,7 +38,7 @@
       {{ content }}
     </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+      <div id="disqus_thread"></div><!-- /#disqus_thread -->
     {% endif %}
   </article>
 </div><!-- /#index -->
@@ -49,7 +49,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}          
+{% include _scripts.html %}
 
 </body>
 </html>
