@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Did you just run disbursment, only to have a bunch of funds lock. Learn how to resolve locked funds.
 tags: [Banner, "Financial Aid", Funds]
+comments: true
 image:
   feature: messiah-college-snow.jpg
 date: 2012-02-13T17:56:18-04:00

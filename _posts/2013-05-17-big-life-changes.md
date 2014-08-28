@@ -5,6 +5,7 @@ modified:
 categories: "General"
 excerpt: Update on what has been going on in my life.
 tags: [life, job, berea, messiah, kentucky]
+comments: true
 image:
   feature: berea-college-snow2.jpg
 date: 2013-05-17T00:00:00-04:00

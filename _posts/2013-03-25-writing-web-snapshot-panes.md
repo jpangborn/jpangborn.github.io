@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Learn how to write Web Snapshot Panes so that you can create custom layouts of Banner data.
 tags: [banner, "financial aid", "web snapshot", sql]
+comments: true
 image:
   feature: berea-college-snow.jpg
 date: 2013-03-25T00:00:00-04:00

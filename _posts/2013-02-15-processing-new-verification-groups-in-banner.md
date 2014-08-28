@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Learn how I updated Banner to process the new verification groups in Banner.
 tags: [banner, "financial aid", verification]
+comments: true
 image:
   feature: berea-college-bushy-fork.jpg
 date: 2013-02-15T00:00:00-05:00

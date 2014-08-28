@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Learn how to write tracking group rules to implement the new verification groups in Banner.
 tags: [banner, "financial aid", verification, tracking]
+comments: true
 image:
   feature: berea-college-walk.jpg
 date: 2014-01-18T00:00:00-05:00

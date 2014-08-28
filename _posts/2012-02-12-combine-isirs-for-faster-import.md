@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Tired of importing 5 or 6 ISIR files everyday? Learn how to combine ISIRs and speed up your import process.
 tags: [banner, "financial aid", isirs]
+comments: true
 image:
   feature: berea-college-quad.jpg
 date: 2012-02-12T18:01:32-04:00

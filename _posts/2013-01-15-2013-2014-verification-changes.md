@@ -5,6 +5,7 @@ modified:
 categories: "Financial Aid"
 excerpt: The federal verification process has changed for th 2013-2014 aid year. Learn about all the changes.
 tags: ["financial aid", verification, 2013-2014]
+comments: true
 image:
   feature: berea-college-walk2.jpg
 date: 2013-01-15T00:00:00-05:00

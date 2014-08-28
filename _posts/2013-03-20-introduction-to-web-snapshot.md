@@ -5,6 +5,7 @@ modified:
 categories: "Banner Financial Aid"
 excerpt: Learn how to use Web Snapshot to create customize views of Banner data.
 tags: [banner, "financial aid", "web snapsnot"]
+comments: true
 image:
   feature: berea-college-patio.jpg
 date: 2013-03-20T00:00:00-04:00

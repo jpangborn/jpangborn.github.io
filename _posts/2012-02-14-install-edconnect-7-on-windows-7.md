@@ -5,6 +5,7 @@ modified:
 categories: "EDConnect"
 excerpt: EDConnect 7 doesnt' officially support Windows 7. Learn how to work around the issues to get it installed and working.
 tags: [edconnect, "financial aid", windows]
+comments: true
 image:
   feature: berea-college-draper.png
 date: 2012-02-14T00:00:00-05:00

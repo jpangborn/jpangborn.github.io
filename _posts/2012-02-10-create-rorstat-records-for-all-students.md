@@ -5,6 +5,7 @@ modified: 2014-08-08
 categories: "Banner Financial Aid"
 excerpt: Simplify much of Banner Financial Aid processing by creating RORSTAT records for all potential students.
 tags: [Banner, "Financial Aid", RORSTAT]
+comments: true
 image:
   feature: night-sky.jpg
 date: 2012-02-10T23:57:37-04:00
