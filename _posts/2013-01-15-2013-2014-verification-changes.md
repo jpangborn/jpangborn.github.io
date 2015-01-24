@@ -40,4 +40,42 @@ In 2013-2014, students who are selected for verification will fall into one of f
 
 ### Group V1: Standard Verification Group
 
-The Standard Verification Group is nearly identical to verification in 2012-2013. The same data needs to be verified as in prior years. What may change is how colleges request some of the data. They may now choose to use separate
+The Standard Verification Group is nearly identical to verification in 2012-2013. The same data needs to be verified as in prior years. What may change is how colleges request some of the data. They may now choose to use separate for some of the data that was previously collected on a single verification worksheet. Colleges have the option of continuing to use a verification worksheet to collect the data. The data that needs to be verified is:
+
+-   Student’s Tax Data (either via the IRS DRT or by submitting a Tax Transcript)
+-   Parents' Tax Data (either via the IRS DRT or by submitting a Tax Transcript)
+-   Household Size
+-   Number of Students in College
+-   Child Support Paid
+-   Supplemental Nutrition Assistance Program (SNAP or Food Stamps)
+
+### Group V2: SNAP Verification Group
+
+The SNAP Verification Group requires the college to verify the receipt of Supplemental Nutrition Assistance Program benefits. This group potentially benefits the student by not requiring them to submit all the verification requirements in order to verify a signal data point. This will hopefully make the verification process easier for some.
+
+### Group V3: Child Support Verification Group
+
+The Child Support Verification Group requires the college to verify the amount of child support paid. This group potentially benefits the student by not requiring them to submit all the verification requirements in order to verify a signal data point. This will hopefully make the verification process easier for some.
+
+### Group V4: Custom Verification Group
+
+The Custom Verification Group is the first group with brand new verification requirements. Those in the custom verification group must submit the following:
+
+High School Completion documentation (most often in the form of the final high school transcript or GED). Education Purpose Statement and Photo ID The Education Purpose Statement and Photo ID must be presented in person at the college’s Financial Aid office where the student must sign the document in the presence of a Financial Aid Administrator. If this is unfeasible, the student must get the Education Purpose Statement notarized by a licensed Notary Public and submit it along with a copy of their government issued photo ID to the college’s Financial Aid Office.
+
+Most students can satisfy the High School completion documentation by submitting their final High School transcript to the college. A General Education Development (GED) certification may also be submitted. There are other options if the student does not have either of these, such as if the student was home schooled. The college’s Financial Aid Office can detail the acceptable documents in a specific student’s situation.
+
+### Group V5: Aggregate Verification Group
+
+The Aggregate Verification Group requires verification of everything from groups V1 and V4, which is all of the various verification data. The full list follows:
+
+-   Student’s Tax Data (either via the IRS DRT or by submitting a Tax Transcript)
+-   Parents' Tax Data (either via the IRS DRT or by submitting a Tax Transcript)
+-   Household Size
+-   Number of Students in College
+-   Child Support Paid
+-   Supplemental Nutrition Assistance Program (SNAP or Food Stamps)
+-   High School Completion documentation (most often in the form of the final high school transcript or GED).
+-   Education Purpose Statement and Photo ID
+
+If you are selected for verification, your college will communicate which documents you need to submit and instructions for submitting them. It is important to read the instructions carefully and follow the instructions to ensure that you receive you Financial Aid package in a timely fashion. This even more important this year with new instructions and new requirements. In past years, all of the data elements required for verification were available for students and parents to submit early in the year. This allowed colleges to complete a large percentage of verification before generating Financial Aid packages for the students. This year, particularly with the High School completion documentation, many students will not be able to submit the final document until the summer. This makes it all the more necessary to follow the college’s instructions and submit your documents in a timely manner. Please contact your college’s Financial Aid Office if you have any questions about verification or the documents required.
