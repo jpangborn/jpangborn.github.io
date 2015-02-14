@@ -82,6 +82,14 @@ rbenv install 2.1.0
 
 This may take a while as ruby is downloaded and compiled.
 
+#### Set Ruby Verison
+
+Run the following command to set your Ruby version to 2.1.0.
+
+{% highlight bash %}
+rbenv global 2.1.0
+{% endhighlight %}
+
 ### Install Bundler
 
 Once Ruby is installed, you will need to install Bundler, the Ruby package manager. It can be installed with the following command.
