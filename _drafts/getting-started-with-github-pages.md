@@ -152,6 +152,6 @@ Once this is done, you will have all the files needed to finalize your blog. But
 
 ## Customizing the Theme
 
-The main configuration for a Jekyll site is contained in the _config.yml file. Follow the instructions of the theme to customize the _config.yml file. Each theme will be slightly different. You can set a number Jekyll options here, but you can also add data that can be used in the templates.
+The main configuration for a Jekyll site is contained in the `_config.yml` file. Follow the instructions of the theme to customize the `_config.yml` file. Each theme will be slightly different. You can set a number Jekyll options here, but you can also add data that can be used in the templates.
 
 
